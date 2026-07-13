@@ -86,7 +86,7 @@ fun QuadrantCard(
     modifier: Modifier = Modifier
 ) {
     Column(
-        // 1. Définition de la couleur de fond et de la marge intérieure de 16dp demandée
+
         modifier = modifier
             .fillMaxSize()
             .background(backgroundColor)
