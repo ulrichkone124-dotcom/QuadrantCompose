@@ -44,7 +44,7 @@ class MainActivity : ComponentActivity() {
 fun ComposeQuadrantApp(modifier: Modifier = Modifier) {
 
     Column(modifier = modifier.fillMaxSize()) {
-        // Première ligne (Haut)
+
         Row(modifier = Modifier.weight(1f)) {
             QuadrantCard(
                 title = stringResource(R.string.text_title),
@@ -59,7 +59,7 @@ fun ComposeQuadrantApp(modifier: Modifier = Modifier) {
                 modifier = Modifier.weight(1f)
             )
         }
-        // Deuxième ligne (Bas)
+
         Row(modifier = Modifier.weight(1f)) {
             QuadrantCard(
                 title = stringResource(R.string.row_title),
@@ -77,7 +77,7 @@ fun ComposeQuadrantApp(modifier: Modifier = Modifier) {
     }
 }
 
-// Composable réutilisable pour chaque vignette / quadrant
+
 @Composable
 fun QuadrantCard(
     title: String,
