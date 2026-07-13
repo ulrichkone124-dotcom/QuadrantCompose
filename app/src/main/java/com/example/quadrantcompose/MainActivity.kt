@@ -101,7 +101,7 @@ fun QuadrantCard(
             fontWeight = FontWeight.Bold,
             modifier = Modifier.padding(bottom = 16.dp)
         )
-        // 4. Deuxième Text avec une taille par défaut et alignement Justify
+
         Text(
             text = description,
             textAlign = TextAlign.Justify
