@@ -42,7 +42,7 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun ComposeQuadrantApp(modifier: Modifier = Modifier) {
-    // Une colonne principale divisée en 2 lignes égales grâce au modifier.weight(1f)
+
     Column(modifier = modifier.fillMaxSize()) {
         // Première ligne (Haut)
         Row(modifier = Modifier.weight(1f)) {
