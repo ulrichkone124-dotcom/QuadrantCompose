@@ -91,7 +91,7 @@ fun QuadrantCard(
             .fillMaxSize()
             .background(backgroundColor)
             .padding(16.dp),
-        // 2. Centre tout le contenu verticalement et horizontalement
+
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
