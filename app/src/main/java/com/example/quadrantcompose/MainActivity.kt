@@ -95,7 +95,7 @@ fun QuadrantCard(
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        // 3. Premier Text en gras avec une marge intérieure inférieure à 16dp
+
         Text(
             text = title,
             fontWeight = FontWeight.Bold,
